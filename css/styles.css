@@ -1,0 +1,133 @@
+
+body {
+  margin:0 auto;
+  background-color: #00FDFF;
+}
+/***********Start of Nav-bar****/
+
+.nav-bar {
+  background-color: #3B8DD3;
+  height: 70px;
+  width: 100%;
+  z-index:1;
+}
+
+
+.logo {
+    height: 70px;
+    width: 150px;
+    float: left;
+}
+
+.nav-list {
+   float: right;
+   margin-right: 20px;
+}
+
+.list-item {
+      list-style-type: none;
+      float: right;
+      background-color: #9A1C20;
+      width: 60px;
+      height: 35px;
+      border: 3px solid #002240;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 20px;
+      
+}
+
+.list-item:hover {
+  background-color: #D90000;
+}
+
+.list-item a:hover{
+  color: white;
+}
+
+.anchor {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.section {
+  background-image: url('../images/matterhorn-3x2.jpg');
+  height: 600px;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+h1 {
+  
+}
+
+.main {
+  height: 600px;
+  width: 100%;
+  
+}
+
+.box {
+  height: 550px;
+  width: 45%;
+  border: 3px solid #6AA051;
+  float: left;
+  margin: 50px 25px 25px 25px;
+}
+
+/*******START OF FOOTER*******/
+.foot{
+    clear:both;
+    height:70px;
+    background-color:#990099;
+}
+.footer-col{
+    width:33%;
+    float:left;
+}
+.footer-buttons{
+    margin-top:18px;
+    margin-left:70px;
+}
+.input{
+    height:25px;
+    width:125px;
+    border-radius:20px;
+    margin-left:70px;
+}
+.button1 {
+  background-color: #7575a3;
+  border-radius:20px;
+  color: #000000;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+.button1:hover{
+    background-color: #b300b3;
+    color:#99bbff;
+}
+/******SOCIAL MEDIA BUTTONS START******/
+.social{
+    text-align:center;
+}
+    
+.fa-facebook{
+    color:#4267b2;
+    font-size:50px;
+    margin-right:20px;
+    margin-top:15px;
+}
+.fa-instagram{
+    color:#231F20;
+    font-size:50px;
+}
+/******SOCIAL MEDIA BUTTONS END******/
+.copyright{
+    text-align:center;
+    margin-top:25px;
+}
